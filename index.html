@@ -6,9 +6,11 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom right, #007a3d, #ffffff);
+      background: linear-gradient(to right, green 50%, white 50%);
       text-align: center;
       padding: 50px;
+      min-height: 100vh;
+      margin: 0;
     }
     #login-section, #loading-section, #result-section {
       display: none;
@@ -17,7 +19,7 @@
       display: block;
     }
     .box {
-      background: #e6f2ec;
+      background: #ffffffcc;
       padding: 30px;
       max-width: 400px;
       margin: auto;
@@ -28,15 +30,27 @@
       padding: 10px;
       margin: 10px;
       width: 90%;
-      border: 1px solid #007a3d;
+      border: 1px solid #ccc;
       border-radius: 5px;
     }
     button {
       padding: 10px 20px;
-      background: #007a3d;
+      background: green;
       color: white;
       border: none;
       border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: darkgreen;
+    }
+    a {
+      color: green;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -60,16 +74,16 @@
   <p>You just entered sensitive details into a fake NIN verification page.</p>
   <p>This was a phishing simulation created to raise awareness about cyber threats in Nigeria.</p>
   <p><strong>Always verify links before clicking!</strong></p>
-  <p>Now that you are here, check out my Linkedin profile on <a href="https://www.linkedin.com/in/ayodeji-aliu-97b880270/" target="_blank">LinkedIn</a>.</p>
+  <p>Check out my cybersecurity projects on 
+    <a href="https://www.linkedin.com/in/ayodeji-aliu-97b880270" target="_blank">LinkedIn</a>.
+  </p>
 </div>
 
 <script>
 function startSimulation() {
-  // Hide login, show loading
   document.getElementById('login-section').style.display = 'none';
   document.getElementById('loading-section').style.display = 'block';
 
-  // Simulate delay
   setTimeout(() => {
     document.getElementById('loading-section').style.display = 'none';
     document.getElementById('result-section').style.display = 'block';
@@ -79,4 +93,3 @@ function startSimulation() {
 
 </body>
 </html>
-
