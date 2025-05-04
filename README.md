@@ -1,43 +1,74 @@
-# Phishing-Simulation
-# Phishing Simulation: NIN Verification Awareness
+# 🎣 NIN Phishing Simulation
 
-This is a cybersecurity phishing simulation project designed to raise awareness about the dangers of clicking unknown or suspicious links — using Nigeria's National Identification Number (NIN) as the context.
+This project is a **cybersecurity awareness simulation** designed to demonstrate how phishing attacks targeting Nigeria's National Identification Number (NIN) system might occur. It serves an educational purpose — highlighting how easily users can be tricked into revealing sensitive information through fake login portals.
 
-##  Objective
-
-To demonstrate how cybercriminals use **social engineering and fake login pages** to steal sensitive data, and to educate users on how to detect and avoid phishing attempts.
-
-##  What I Did
-
-- Crafted a **realistic phishing email** mimicking a Nigerian government NIN update request.
-- Registered a **GitHub Pages-hosted fake NIN verification site**.
-- Created a **login prompt** to simulate data entry and then reveal the simulation.
-- Incorporated **delayed feedback** to simulate processing before showing an educational message.
-- Embedded my [LinkedIn](https://www.linkedin.com/in/ayodeji-aliu-97b880270/) to redirect visitors for portfolio visibility.
-
-## 📺 Live Simulation Page
-
-Click to view the [Live Simulation](https://scopielala.github.io/Phishing-Simulation/)
-*(or use the shortened version [bit.ly/nin-verification](https://bit.ly/nin-verification))*
-
-> ⚠️ For educational purposes only. This project is intended strictly for **awareness training** and not for malicious use.
-
-##  What I Learned
-
-- How phishing attacks are structured using **psychological manipulation (social engineering)**.
-- How to build and host phishing-like pages for training.
-- The importance of verifying URLs before clicking.
-- Web basics: HTML, GitHub Pages, and project deployment.
-
-##  Responsible Disclosure
-
-This project is purely educational and part of my journey into cybersecurity. I do not support or engage in any malicious activity. All simulations are clearly disclosed and non-functional in terms of storing real data.
+🔗 **Live Demo**: [https://bit.ly/nin-verify](https://bit.ly/nin-verification)  
+_(Link is shortened intentionally to simulate phishing tactics.)_
 
 ---
 
-##  Contact
+## ⚠️ About the Simulation
 
-Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/ayodeji-aliu-97b880270/) or fork the project to build your own simulations!
+The fake portal is crafted to look like a **NIMC verification login page**, prompting users to enter:
+
+- Their NIN
+- Date of Birth
+
+After submitting, the simulation reveals that this was a **phishing attempt**, providing an educational warning on how easily such traps can be disguised.
 
 ---
 
+## 🧠 Objectives
+
+- **Raise awareness** about phishing threats in Nigeria.
+- Educate users on how **harmless-looking links** can lead to malicious pages.
+- Practice ethical web development and phishing simulation for **defensive cybersecurity training**.
+
+---
+
+## 📂 Project Structure
+
+- `index.html` — Simulated phishing login page + final awareness prompt.
+- `README.md` — Explanation of project, intent, and structure.
+- `LICENSE` — Open source under MIT License.
+
+---
+
+## 📩 Sample Phishing Email
+
+> **Subject:** Urgent: NIN Portal Verification Required  
+>  
+> Dear Citizen,  
+>  
+> Due to recent upgrades to the National Identity Database, all citizens are required to verify their NIN via the secure portal below:  
+>  
+> 🔗 [Verify Your NIN Now](https://bit.ly/nin-verification)  
+>  
+> Failure to do so within 48 hours may result in suspension of your ID.  
+>  
+> — NIMC Support Team
+
+---
+
+## 🛡️ Security Lessons
+
+- **Don't trust links blindly** — always verify the domain before entering sensitive information.
+- **Look out for URL shorteners**, misspelled domains, or urgent call-to-actions.
+- **Stay logged out** of sensitive platforms unless necessary.
+
+---
+
+## 📚 License
+
+This project is licensed under the **MIT License** — see the `LICENSE` file for more details.
+
+---
+
+## 👤 Author - Ayodeji Aliu
+
+Built with ❤️ by a cybersecurity enthusiast for **educational and awareness purposes only**.  
+🔗 [Visit my LinkedIn](https://www.linkedin.com/in/ayodeji-aliu-97b880270)
+
+---
+
+> ⚠️ **DISCLAIMER:** This simulation is for educational use only. Do not use the techniques demonstrated here for malicious purposes.
